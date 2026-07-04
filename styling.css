@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: #FBEAF0;
+  padding: 16px;
+  border-bottom: 2px solid #F4C0D1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #72243E;
+  font-size: 22px;
+}
+
+nav a {
+  margin-left: 16px;
+  color: #72243E;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: #FBEAF0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #72243E;
+  font-size: 28px;
+}
+
+.hero p {
+  color: #555;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #D4537E;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #72243E;
+  margin-bottom: 12px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.card-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #F4C0D1;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  background-color: #fff;
+}
+
+.card h3 {
+  color: #72243E;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.card ul {
+  font-size: 14px;
+  color: #555;
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+.tag {
+  background-color: #FBEAF0;
+  color: #D4537E;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.tip-box {
+  background-color: #FBEAF0;
+  border-left: 4px solid #D4537E;
+  padding: 16px 20px;
+  border-radius: 6px;
+  max-width: 600px;
+}
+
+.tip-box p {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.contact-form {
+  max-width: 500px;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 14px;
+  color: #72243E;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #F4C0D1;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #FBEAF0;
+  border-top: 2px solid #F4C0D1;
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #72243E;
+}
+
+footer a {
+  color: #D4537E;
+  margin: 0 8px;
+  text-decoration: none;
+}
